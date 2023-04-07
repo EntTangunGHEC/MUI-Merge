@@ -35,7 +35,8 @@
     "uxpin": "npx uxpin-merge --disable-tunneling",
     "eslint": "npx eslint src/",
     "prettier:check": "npx prettier src/ --check .",
-    "prettier:write": "npx prettier src/ --write ."
+    "prettier:write": "npx prettier src/ --write .",
+    "push": "uxpin-merge push"
   },
   "devDependencies": {
     "@uxpin/merge-cli": "^3.0.1",
